@@ -57,6 +57,10 @@ To try it, run the sniffer in one terminal and `ping -c 5 example.com` in anothe
 
 ---
 
+## Workflow
+
+![Packet sniffer workflow](workflow.svg)
+
 ## What it does
 
 - Captures live traffic with Scapy's `sniff()` without storing packets in memory
